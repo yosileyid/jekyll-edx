@@ -95,12 +95,6 @@ plugins:
   - jekyll-doodle
   - jekyll-auth
 
-jekyll_auth:
-  github:
-    client_id: 551bb864827096695fbc
-    client_secret: 92828c9009d304d0ddf50301c0bc113d9bf0de66
-    redirect_uri: http://localhost:4000/login/github/callback
-
 collections:
   categories:
     output: true
