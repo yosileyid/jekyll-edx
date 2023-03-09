@@ -1,0 +1,34 @@
+<header class="p-3 text-bg-dark">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="navbar-brand">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/EdX_Logo.PNG" height="40" />
+      </a>
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="/" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-2 text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Reading List
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/reading">Lecture Reading</a></li>
+            <li><a class="dropdown-item" href="/books">Book List</a></li>
+          </ul>
+        </li>
+        <li><a href="/psets" class="nav-link px-2 text-white">Problem Sets</a></li>
+      </ul>
+
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+      </form>
+
+      <div class="text-end">
+        {% if site.github %}
+        <a class="btn btn-outline-light me-2">Login</a>
+        {% endif %}
+        <button type="button" class="btn btn-warning">Sign-up</button>
+      </div>
+    </div>
+  </div>
+</header>

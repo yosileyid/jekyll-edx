@@ -1,0 +1,8 @@
+body {
+  font-size: 1.3rem;
+}
+
+body > header > div > div > ul > li {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
